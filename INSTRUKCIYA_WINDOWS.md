@@ -1,4 +1,4 @@
-# Як розмістити KPGM Wallet у Google Play та App Store (Windows 11)
+# Як розмістити MYSTERYUM WALLET у Google Play та App Store (Windows 11)
 
 Проста інструкція без технічних термінів. Виконуйте кроки по порядку.
 
@@ -10,7 +10,7 @@
 1. Відкрийте https://play.google.com/console
 2. Увійдіть у свій Google-акаунт
 3. Оплатіть $25 (одноразово, назавжди)
-4. Заповніть дані: ім'я видавця — **KeyPowerGrailMystery**, email — **kpgm26@tutamail.com**
+4. Заповніть дані: ім'я видавця — **MYSTERYUM WALLET**, email — **support@mysteryum.com**
 
 ### Крок 2. Встановіть Android Studio
 1. Завантажте з https://developer.android.com/studio (кнопка Download)
@@ -18,8 +18,8 @@
 3. При першому запуску оберіть «Standard» установку і дочекайтеся завантаження
 
 ### Крок 3. Отримайте проєкт на комп'ютер (найпростіший шлях)
-1. Завантажте файл **KPGM-Wallet-Mobile.zip** з чату (я прикріпив його нижче)
-2. Розпакуйте його у зручну папку, наприклад `C:\KPGM` — всередині буде папка `android`
+1. Завантажте файл **архів проєкту** з чату (я прикріпив його нижче)
+2. Розпакуйте його у зручну папку, наприклад `C:\MYSTERYUM` — всередині буде папка `android`
 3. Якщо бажаєте вести проєкт через GitHub (необов'язково для Google Play) — дивіться кроки нижче:
    - У Lovable натисніть **GitHub** (кнопка зверху) → «Connect to GitHub» → «Create repository»
    - Встановіть GitHub Desktop: https://desktop.github.com
@@ -31,8 +31,8 @@
 3. У меню зверху: **Build → Generate Signed App Bundle / APK**
 4. Оберіть **Android App Bundle (.aab)** → Next
 5. Натисніть **Create new...** (це ваш ключ підпису):
-   - Вкажіть папку, назву файлу (наприклад `kpgm-key`), пароль (запишіть його!)
-   - Ім'я: KeyPowerGrailMystery → OK → Next
+   - Вкажіть папку, назву файлу (наприклад `mysteryum-key`), пароль (запишіть його!)
+   - Ім'я: MYSTERYUM WALLET → OK → Next
 6. Оберіть **release** → Create
 7. Готовий файл буде в папці `android/app/release/app-release.aab`
 
@@ -40,12 +40,12 @@
 
 ### Крок 5. Завантажте в Google Play
 1. У https://play.google.com/console натисніть **Create app**
-2. Назва: **KPGM Wallet**, мова: Українська, тип: App, Free
+2. Назва: **MYSTERYUM WALLET**, мова: Українська, тип: App, Free
 3. Заповніть розділи зліва (тексти вже готові у файлі STORE_SUBMISSION.md):
    - Опис додатка — скопіюйте з STORE_SUBMISSION.md
    - Іконка та скріншоти — зробіть скріншоти додатка на телефоні
    - Категорія: **Finance**
-   - Сторінка конфіденційності: `https://key-pover-grail-mystery.lovable.app/privacy`
+   - Сторінка конфіденційності: `https://mysteryum-wallet.lovable.app/privacy`
 4. У розділі **Production → Create release** завантажте файл `app-release.aab`
 5. Натисніть **Send for review** — перевірка займе 1–3 дні
 
@@ -74,10 +74,10 @@
 ### Крок 4. Завантажте в App Store
 1. Відкрийте https://appstoreconnect.apple.com
 2. My Apps → **+** → New App:
-   - Назва: **KPGM Wallet**
+   - Назва: **MYSTERYUM WALLET**
    - Bundle ID: `com.keypowergrailmystery.wallet`
 3. Заповніть опис (тексти у STORE_SUBMISSION.md), додайте скріншоти
-4. Сторінка конфіденційності: `https://key-pover-grail-mystery.lovable.app/privacy`
+4. Сторінка конфіденційності: `https://mysteryum-wallet.lovable.app/privacy`
 5. У Codemagic після збірки натисніть **Publish to App Store Connect** — файл потрапить у ваш акаунт автоматично
 6. У App Store Connect оберіть цю збірку → **Submit for Review**
 7. Перевірка Apple займе 1–2 дні

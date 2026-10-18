@@ -1,18 +1,18 @@
-# KPGM Wallet — store submission details
+# MYSTERYUM WALLET — store submission details
 
 ## Ownership and contact
-- Publisher: KeyPowerGrailMystery
-- Support email: kpgm26@tutamail.com
-- App name: KPGM Wallet
+- Publisher: MYSTERYUM WALLET
+- Support email: support@mysteryum.com
+- App name: MYSTERYUM WALLET
 - App identifier: com.keypowergrailmystery.wallet
 - Category: Finance
-- Privacy policy: https://key-pover-grail-mystery.lovable.app/privacy
+- Privacy policy: https://mysteryum-wallet.lovable.app/privacy
 
 ## Short description
 Self-custodial multi-chain wallet with clear approvals and live Solana swaps.
 
 ## Full description
-KPGM Wallet lets users create or restore a self-custodial wallet, review public balances across supported networks, receive assets using wallet addresses and QR codes, send SOL, and review live Solana swap quotes before approval. Recovery phrases and private keys remain encrypted on the user’s device. Every transaction requires the user’s explicit approval.
+MYSTERYUM WALLET lets users create or restore a self-custodial wallet, review public balances across supported networks, receive assets using wallet addresses and QR codes, send SOL, and review live Solana swap quotes before approval. Recovery phrases and private keys remain encrypted on the user’s device. Every transaction requires the user’s explicit approval.
 
 ## Review notes
 - No account is required.
